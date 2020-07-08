@@ -1,0 +1,35 @@
+body {
+    background-color: #382db4;
+}
+
+header, section {
+    background-color: #dddddd;
+}
+
+footer, div {
+    background-color: #2e2e2e;
+}
+
+h1 {
+    color: #241c6d;
+}
+
+section {
+    color: #2e2e2e;
+}
+
+section section, footer {
+    color: #dddddd;
+}
+
+a {
+    color: #9ebdff;
+}
+
+a:hover {
+    color: #ff9d4d;
+}
+
+section {
+    margin: 16px;
+}
