@@ -68,8 +68,6 @@ header nav div div a:hover {
     border-style: solid;
     border-color: #2e2e2e #111111 #111111 #2e2e2e;
     border-width: 0.1rem;
-
-    overflow: auto;
 }
 
 #about img, #about p {
@@ -98,6 +96,32 @@ header nav div div a:hover {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+.project-details {
+    text-align: center;
+    padding: 2rem;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    margin: 0.5rem;
+    opacity: 0;
+}
+
+.project-details:hover {
+    opacity: 0.95;
+}
+
+.my-row {
+    margin: -0.5rem;
+}
+
+.my-col {
+    padding: 0.5rem!important;
 }
 
 /* More */
