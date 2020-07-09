@@ -57,10 +57,6 @@ section {
     background-color: #eaeaea;
 }
 
-footer {
-    background-color: #2e2e2e;
-}
-
 h1 {
     color: #241c6d;
 }
@@ -84,4 +80,18 @@ a:hover {
 
 section {
     margin: 16px;
+}
+
+/* Footer */
+
+footer {
+    padding: 0.8rem;
+}
+
+footer div {
+    max-width: 350px;
+}
+
+footer a {
+    margin: 0.3rem;
 }
