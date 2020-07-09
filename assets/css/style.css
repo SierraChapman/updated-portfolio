@@ -15,6 +15,16 @@ h2, h3 {
     font-family: 'Merriweather', serif;
 }
 
+h2 {
+    border-bottom-style: solid;
+    border-bottom-width: 0.1rem;
+
+    /* width: 180px; */
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .dark {
     background-color: #2e2e2e;
     color: #eaeaea;
@@ -47,9 +57,9 @@ header nav div div a:hover {
 
 /* Main body */
 
-section div {
+/* section div {
     margin: 16px;
-}
+} */
 
 .my-card {
     padding: 1rem;
@@ -73,6 +83,12 @@ section div {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+/* About me card */
+
+#about img, #about p {
+    margin: 0.5rem 0 0 0;
 }
 
 /* More */
