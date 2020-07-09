@@ -7,6 +7,7 @@ body {
 
 h1 {
     font-family: 'Lora', serif;
+    color: #241c6d;
     margin: 0.5rem;
 }
 
@@ -14,12 +15,14 @@ h2, h3 {
     font-family: 'Merriweather', serif;
 }
 
-.dark-background {
+.dark {
     background-color: #2e2e2e;
+    color: #eaeaea;
 }
 
-.light-background {
+.light {
     background-color: #eaeaea;
+    color: #2e2e2e;
 }
 
 /* Header */
@@ -42,6 +45,21 @@ header nav div div a:hover {
     background-color: #111111;
 }
 
+/* Main body */
+
+section div {
+    margin: 16px;
+}
+
+.my-card {
+    padding: 1rem;
+    margin: 0.5rem 0.6rem;
+
+    border-style: solid;
+    border-color: #2e2e2e #111111 #111111 #2e2e2e;
+    border-width: 0.1rem;
+}
+
 /* More */
 
 .shifted {
@@ -53,22 +71,6 @@ header nav div div a:hover {
     margin-top: 0;
 }
 
-section {
-    background-color: #eaeaea;
-}
-
-h1 {
-    color: #241c6d;
-}
-
-section {
-    color: #2e2e2e;
-}
-
-section section, footer {
-    color: #eaeaea;
-}
-
 a {
     color: #eaeaea;
 }
@@ -78,14 +80,11 @@ a:hover {
     text-decoration: none;
 }
 
-section {
-    margin: 16px;
-}
-
 /* Footer */
 
 footer {
     padding: 0.8rem;
+    margin-top: 1rem;
 }
 
 footer div {
