@@ -1,6 +1,8 @@
 /* Whole document */
 
 body {
+    background-image: url("../images/blue-background.png");
+    background-size: cover;
     background-color: #241c6d;
     font-family: 'Source Sans Pro', sans-serif;
 }
