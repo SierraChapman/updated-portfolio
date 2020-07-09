@@ -68,12 +68,27 @@ header nav div div a:hover {
     border-style: solid;
     border-color: #2e2e2e #111111 #111111 #2e2e2e;
     border-width: 0.1rem;
+
+    overflow: auto;
+}
+
+#about img, #about p {
+    margin: 0.5rem 0 0 0;
 }
 
 @media (min-width: 576px) {
     .my-card {
         margin-left: 1rem;
         margin-right: 1rem;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+
+    #about img {
+        float: left;
+        width: 300px;
+
+        padding-right: 0.8rem;
     }
 }
 
@@ -83,12 +98,6 @@ header nav div div a:hover {
         margin-left: auto;
         margin-right: auto;
     }
-}
-
-/* About me card */
-
-#about img, #about p {
-    margin: 0.5rem 0 0 0;
 }
 
 /* More */
