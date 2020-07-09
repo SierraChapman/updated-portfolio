@@ -4,7 +4,7 @@ This is my portfolio website, which displays my bio, selected projects, and cont
 
 ## Screenshot
 
-The GIF below demonstrates searching for a city, selecting a city from the recently viewed list, and clearing the search history.
+Below is a screenshot of the deployed application.
 
 ![Demonstration of the scheduling application](assets/images/portfolio-screenshot.png)
 
