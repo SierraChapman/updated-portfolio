@@ -60,6 +60,13 @@ section div {
     border-width: 0.1rem;
 }
 
+@media (min-width: 576px) {
+    .my-card {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
 /* More */
 
 .shifted {
